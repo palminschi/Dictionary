@@ -5,7 +5,7 @@ import com.palmdev.dictionary.feature_dictionary.domain.model.WordInfo
 
 data class WordInfoDto(
     val meanings: List<MeaningDto>,
-    val phonetic: String,
+    val phonetic: String?,
     val phonetics: List<PhoneticDto>,
     val word: String
 ) {
